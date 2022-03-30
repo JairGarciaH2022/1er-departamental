@@ -1,3 +1,5 @@
+
+
 window.onload = function() {
     /* Asignar evento al botón generar sentencia */
     document.getElementById('generar').addEventListener("click",function(e){

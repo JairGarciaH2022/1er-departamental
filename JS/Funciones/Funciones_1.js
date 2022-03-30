@@ -3,7 +3,7 @@ y el código entre llaves. Para llamar a la función (ejecutarla), tenemos que
 declarar su nombre con un par de paréntesis al final, como mostramos a continuación.*/
 
 function mostrarMensaje() {   
-    alert("Soy una función"); 
+    alert("Soy una funcion"); 
 } 
 mostrarMensaje(); 
 
@@ -33,7 +33,7 @@ alert("El valor es " + mivalor);  // "El valor es 70"
 
     var mivalor = "Hola"; 
     if (isNaN(mivalor)) {   
-        alert(mivalor + " no es un número"); 
+        alert(mivalor + " no es un numero"); 
     } else {   
-        alert(mivalor + " es un número"); 
+        alert(mivalor + " es un numero"); 
     } 

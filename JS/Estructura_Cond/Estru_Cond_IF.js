@@ -1,18 +1,17 @@
 
-/* IF */
 
-/* 1 */ 
-let queso = 'Cheddar';
+let marca,modelo,Semana=0;
+    
+Mes = window.prompt("Mes?","0");
+Dia = window.prompt("Dia?","0");
 
-if (queso) {
-  console.log('¡Siii! Hay queso para hacer tostadas con queso.');
-} else {
-  console.log('No hay tostadas con queso para ti hoy :(.');
-}
-
-/* 2 */
-if (carritoDeHelados || estadoDeLaCasa === 'en llamas') {
-    console.log('Debes salir de la casa rápidamente.');
-  } else {
-    console.log('Es mejor que te quedes dentro de casa');
-  }
+if ((Mes=="Enero") && (Dia =="Dos"))
+ {
+     Semana= 1;
+ }
+ 
+ if ((Mes=="Agosto") && (Dia =="Diez"))
+ {
+     Semana= 6;
+ }   
+ document.write (`<h3> El mes en el que esta es el ${Semana} </h3>`);

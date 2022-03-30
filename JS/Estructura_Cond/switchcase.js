@@ -1,6 +1,6 @@
 
 
-var opc=window.prompt("Ingresa la opción que deseas");
+var opc=window.prompt("Ingresa la opcion que deseas");
 switch (opc){
     case('1'):
     console.log("do_while.js")
