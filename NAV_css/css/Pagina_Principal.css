@@ -1,0 +1,117 @@
+/* Aplicamos estilos Universales */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Aplicamos Estilos al body */
+  body {
+    font-family: "Times New Roman";
+    font-size: 16px;
+  }
+  
+  /* --------------- INICIO CABECERA --------------*/
+  /*Aplicamos Estilos al Contenedor */
+  .content{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+  }
+  
+  /*Aplicamos Estilos al header */
+  header {
+    background: url(/img/derecho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+  }
+  
+  header nav {
+    margin: 20px 20px; 
+    text-align: right;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 4px solid grey transparent;
+    color:grey;
+  }
+  
+  header nav a:hover{
+    border-bottom: 4px solid chartreuse;
+  }
+  
+  /* Aplicamos estilo al Contenedor de texto */
+  header .contenedortexto {
+    justify-content: center;
+    align-content: center;
+    margin: 120px 1px;
+  }
+  
+  header .contenedortexto .texto {
+    border: 0px  solid grey;
+    border: 3px;
+    text-align: center;
+    padding: 10px 60px;
+  }
+  
+  header .contenedortexto .texto h1,
+  header .contenedortexto .texto h2 {
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+  }
+  
+  header .contenedortexto .texto .nombre {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+  
+  header .contenedortexto .texto .form {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  
+  /* --------------- FIN CABECERA --------------*/
+  /*----> */
+  /*----> */
+  /*----> */
+  /* --------------- INICIO CUERPO --------------*/
+  
+  .principal .Acerca {
+    text-align: center;
+  }
+  
+  .principal .Acerca .foto {
+    margin-top: -60px;
+  }
+  
+  .principal .Acerca .foto img {
+    border-radius: 50%;
+    vertical-align: top;
+    border: 5px solid grey;
+  }
+  
+  .principal .Acerca .texto {
+    font-weight: 600;
+    width: 70%;
+    margin: 40px auto 60px auto;
+  }
+  
+  .principal .Acerca .texto .titulo  {
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    color:rgb(78, 78, 74);
+  }
+  /*------------------ FIN CUERPO ----------------------*/
+  /*------------------ INICIO FOOTER ------------------*/
+  
+  footer .titulof {
+background-color: #f0b8a2;
+color:blue;
+clear: both;
+    
+  }
